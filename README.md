@@ -44,3 +44,5 @@ go mod tidy
 ```
 
 > You can ensure that you’re managing dependencies for all of your code’s imported packages while also removing dependencies for packages you’re no longer importing.
+---
+> When you ran go mod tidy, it located and downloaded the rsc.io/quote module that contains the package you imported. By default, it downloaded the latest version -- v1.5.2.
